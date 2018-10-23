@@ -2,6 +2,8 @@
 
 return [
 
+	'url_base' => env('APP_URL_BASE', 'http://multicms.local'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Name

@@ -105,7 +105,7 @@ return [
          * @see
          * @info set to true to enable.
          */
-        'auto-delete-tenant-directory' => false,
+        'auto-delete-tenant-directory' => true,
 
         /**
          * Time to cache websites in minutes. Set to false to disable.
@@ -261,7 +261,7 @@ return [
          *
          * @info set to true to enable.
          */
-        'auto-delete-tenant-database' => env('TENANCY_DATABASE_AUTO_DELETE', false),
+        'auto-delete-tenant-database' => env('TENANCY_DATABASE_AUTO_DELETE', true),
 
         /**
          * Automatically delete the user needed to access the tenant database.
